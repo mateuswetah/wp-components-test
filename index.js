@@ -1,9 +1,5 @@
-// Conteúdo do arquivo "wp-components-test.js"
+// Script should execute only after dom is loaded. We are using here DOMContentLoaded event.
 document.addEventListener('DOMContentLoaded', function () {
-    // Seu código JavaScript personalizado pode ser adicionado aqui.
-    console.log('O arquivo JavaScript personalizado foi carregado com sucesso!');
-    console.log(wp.components)
-
     
     const { createRoot, render, createElement } = wp.element;
     const { Button } = wp.components;
